@@ -1,0 +1,14 @@
+@import 'bourbon';
+
+header {
+	background: blue;
+	@include display(flex);
+	@include justify-content(space-between);
+	&:hover {
+		background: red;
+	}
+	p {
+		color: white;
+		margin: 10px;
+	}
+}
